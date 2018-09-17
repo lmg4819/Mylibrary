@@ -233,11 +233,11 @@
 		903DCD49C72169E8B36D7DF09243EFD8 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
 		91BD3AEAE3BF8ECA31845639C44A117D /* TAPageControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TAPageControl.m; sourceTree = "<group>"; };
 		92295949214FA70900D3EADC /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
-		9229594C214FA73000D3EADC /* h1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = h1.png; sourceTree = "<group>"; };
+		9229594C214FA73000D3EADC /* h1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = h1.jpg; sourceTree = "<group>"; };
 		9229594E214FA73000D3EADC /* h7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = h7.png; sourceTree = "<group>"; };
-		92295951214FA73000D3EADC /* h2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = h2.png; sourceTree = "<group>"; };
-		92295957214FA73000D3EADC /* h4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = h4.png; sourceTree = "<group>"; };
-		9229595A214FA73000D3EADC /* h3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = h3.png; sourceTree = "<group>"; };
+		92295951214FA73000D3EADC /* h2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = h2.jpg; sourceTree = "<group>"; };
+		92295957214FA73000D3EADC /* h4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = h4.jpg; sourceTree = "<group>"; };
+		9229595A214FA73000D3EADC /* h3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = h3.jpg; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9546EEC4D137B71D38D8A24DAC60145B /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
 		95827B05DDCA33388192929C2E0FD591 /* SDWebImage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SDWebImage.xcconfig; sourceTree = "<group>"; };
@@ -573,10 +573,10 @@
 			isa = PBXGroup;
 			children = (
 				9229594E214FA73000D3EADC /* h7.png */,
-				92295957214FA73000D3EADC /* h4.png */,
-				9229595A214FA73000D3EADC /* h3.png */,
-				92295951214FA73000D3EADC /* h2.png */,
-				9229594C214FA73000D3EADC /* h1.png */,
+				92295957214FA73000D3EADC /* h4.jpg */,
+				9229595A214FA73000D3EADC /* h3.jpg */,
+				92295951214FA73000D3EADC /* h2.jpg */,
+				9229594C214FA73000D3EADC /* h1.jpg */,
 				92295949214FA70900D3EADC /* .gitkeep */,
 			);
 			name = Assets;
