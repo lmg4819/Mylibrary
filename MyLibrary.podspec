@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/lmg4819/JSTestProject'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'lmg' => 'luomengge@cheyipai.com' }
+  s.author           = { 'lmg' => '893788253@qq.com' }
   s.source           = { :git => 'https://github.com/lmg4819/Mylibrary.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 

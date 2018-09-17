@@ -19,11 +19,6 @@
     "ios": "8.0"
   },
   "source_files": "MyLibrary/Classes/SDCycleScrollView/**/*.{h,m}",
-  "resource_bundles": {
-    "MyLibrary": [
-      "MyLibrary/Assets/*.png"
-    ]
-  },
   "dependencies": {
     "SDWebImage": [
       ">= 4.0.0"
