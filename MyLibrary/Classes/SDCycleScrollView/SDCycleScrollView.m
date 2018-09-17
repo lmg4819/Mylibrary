@@ -690,4 +690,15 @@ NSString * const ID = @"SDCycleScrollViewCell";
     }
 }
 
++ (NSString *)getImagePathWithImageName:(NSString *)imageName
+{
+    NSBundle *currentBundle = [NSBundle bundleForClass:[self class]];
+    // 获取当前bundle的名称
+    NSString *currentBundleName = currentBundle.infoDictionary[@"CFBundleName"];
+    // 获取图片的路径
+    NSString *imagePath = [currentBundle pathForResource:imageName ofType:nil inDirectory:[NSString stringWithFormat:@"%@.bundle",currentBundleName]];
+    
+    return imagePath;
+}
+
 @end
