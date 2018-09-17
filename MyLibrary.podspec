@@ -32,9 +32,9 @@ Pod::Spec.new do |s|
 
   s.source_files = 'MyLibrary/Classes/SDCycleScrollView/**/*.{h,m}'
   
-  s.resource_bundles = {
-     'MyLibrary' => ['MyLibrary/Assets/*.png']
-  }
+  #  s.resource_bundles = {
+  #   'MyLibrary' => ['MyLibrary/Assets/*.png']
+  # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
