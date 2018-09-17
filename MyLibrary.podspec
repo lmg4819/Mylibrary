@@ -18,10 +18,10 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+          create a pri repo to use
                        DESC
 
-  s.homepage         = 'https://github.com/lmg/MyLibrary'
+  s.homepage         = 'https://github.com/lmg4819/JSTestProject'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'lmg' => 'luomengge@cheyipai.com' }
@@ -32,9 +32,9 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'MyLibrary/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'MyLibrary' => ['MyLibrary/Assets/*.png']
-  # }
+  s.resource_bundles = {
+     'MyLibrary' => ['MyLibrary/Assets/*.png']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
