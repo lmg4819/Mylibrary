@@ -25,12 +25,12 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'lmg' => 'luomengge@cheyipai.com' }
-  s.source           = { :git => 'https://github.com/lmg/MyLibrary.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/lmg4819/Mylibrary.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'MyLibrary/Classes/**/*'
+  s.source_files = 'MyLibrary/Classes/SDCycleScrollView/**/*.{h,m}'
   
   s.resource_bundles = {
      'MyLibrary' => ['MyLibrary/Assets/*.png']
@@ -38,5 +38,5 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'SDWebImage', '>= 4.0.0'
 end

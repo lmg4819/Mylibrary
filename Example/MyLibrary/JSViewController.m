@@ -7,8 +7,10 @@
 //
 
 #import "JSViewController.h"
+#import <MyLibrary/SDCycleScrollView.h>
+#import <MyLibrary/UIView+SDExtension.h>
 
-@interface JSViewController ()
+@interface JSViewController ()<SDCycleScrollViewDelegate>
 
 @end
 
@@ -18,12 +20,36 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    self.view.backgroundColor = [UIColor colorWithRed:0.98 green:0.98 blue:0.98 alpha:0.99];
+    
+    NSArray *imageNames = @[@"h1.jpg",
+                            @"h2.jpg",
+                            @"h3.jpg",
+                            @"h4.jpg",
+                            @"h7" // 本地图片请填写全名
+                            ];
+    
+    SDCycleScrollView *cycleScrollView = [SDCycleScrollView cycleScrollViewWithFrame:CGRectMake(0, 64, self.view.sd_width, 180) shouldInfiniteLoop:YES imageNamesGroup:imageNames];
+    cycleScrollView.delegate = self;
+    cycleScrollView.pageControlStyle = SDCycleScrollViewPageContolStyleAnimated;
+    [self.view addSubview:cycleScrollView];
+    cycleScrollView.scrollDirection = UICollectionViewScrollDirectionHorizontal;
+    
+    
 }
 
-- (void)didReceiveMemoryWarning
+#pragma mark -SDCycleScrollViewDelegate
+/** 点击图片回调 */
+- (void)cycleScrollView:(SDCycleScrollView *)cycleScrollView didSelectItemAtIndex:(NSInteger)index
 {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    NSLog(@"------%ld------",(long)index);
+}
+
+/** 图片滚动回调 */
+- (void)cycleScrollView:(SDCycleScrollView *)cycleScrollView didScrollToIndex:(NSInteger)index
+{
+    NSLog(@"======%ld======",(long)index);
 }
 
 @end

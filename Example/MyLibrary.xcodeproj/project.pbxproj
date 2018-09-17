@@ -339,10 +339,12 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-MyLibrary_Example/Pods-MyLibrary_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/MyLibrary/MyLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MyLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

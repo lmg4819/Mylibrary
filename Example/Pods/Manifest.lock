@@ -4,7 +4,11 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - MyLibrary (0.1.0)
+  - MyLibrary (0.1.0):
+    - SDWebImage (>= 4.0.0)
+  - SDWebImage (4.4.2):
+    - SDWebImage/Core (= 4.4.2)
+  - SDWebImage/Core (4.4.2)
 
 DEPENDENCIES:
   - FBSnapshotTestCase
@@ -13,6 +17,7 @@ DEPENDENCIES:
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - FBSnapshotTestCase
+    - SDWebImage
 
 EXTERNAL SOURCES:
   MyLibrary:
@@ -20,7 +25,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  MyLibrary: 07375ecff19ed4ab3088aaeddf536d9ed8618dd1
+  MyLibrary: 02ad6f003e04deb950017c3e47d710152d398852
+  SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
 
 PODFILE CHECKSUM: cd80b43c97db0382763b094476daee370f1d786f
 

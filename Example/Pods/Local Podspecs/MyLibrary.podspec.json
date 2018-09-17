@@ -12,16 +12,21 @@
     "lmg": "luomengge@cheyipai.com"
   },
   "source": {
-    "git": "https://github.com/lmg/MyLibrary.git",
+    "git": "https://github.com/lmg4819/Mylibrary.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "MyLibrary/Classes/**/*",
+  "source_files": "MyLibrary/Classes/SDCycleScrollView/**/*.{h,m}",
   "resource_bundles": {
     "MyLibrary": [
       "MyLibrary/Assets/*.png"
+    ]
+  },
+  "dependencies": {
+    "SDWebImage": [
+      ">= 4.0.0"
     ]
   }
 }
