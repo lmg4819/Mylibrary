@@ -27,10 +27,17 @@
                             @"h2.jpg",
                             @"h3.jpg",
                             @"h4.jpg",
-                            @"h7" // 本地图片请填写全名
+                            @"h7.png" // 本地图片请填写全名
                             ];
     
-    SDCycleScrollView *cycleScrollView = [SDCycleScrollView cycleScrollViewWithFrame:CGRectMake(0, 64, self.view.sd_width, 180) shouldInfiniteLoop:YES imageNamesGroup:imageNames];
+    NSMutableArray *tempArray = [NSMutableArray array];
+    for (NSString *tempStr in imageNames) {
+        NSString *imagePath = [SDCycleScrollView getImagePathWithImageName:tempStr];
+        [tempArray addObject:imagePath];
+    }
+    
+   
+    SDCycleScrollView *cycleScrollView = [SDCycleScrollView cycleScrollViewWithFrame:CGRectMake(0, 64, self.view.sd_width, 180) shouldInfiniteLoop:YES imageNamesGroup:tempArray];
     cycleScrollView.delegate = self;
     cycleScrollView.pageControlStyle = SDCycleScrollViewPageContolStyleAnimated;
     [self.view addSubview:cycleScrollView];

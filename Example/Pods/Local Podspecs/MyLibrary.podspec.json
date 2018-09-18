@@ -1,6 +1,6 @@
 {
   "name": "MyLibrary",
-  "version": "0.1.0",
+  "version": "0.5.0",
   "summary": "A short description of MyLibrary.",
   "description": "create a pri repo to use",
   "homepage": "https://github.com/lmg4819/JSTestProject",
@@ -9,16 +9,21 @@
     "file": "LICENSE"
   },
   "authors": {
-    "lmg": "luomengge@cheyipai.com"
+    "lmg": "893788253@qq.com"
   },
   "source": {
     "git": "https://github.com/lmg4819/Mylibrary.git",
-    "tag": "0.1.0"
+    "tag": "0.5.0"
   },
   "platforms": {
     "ios": "8.0"
   },
   "source_files": "MyLibrary/Classes/SDCycleScrollView/**/*.{h,m}",
+  "resource_bundles": {
+    "MyLibrary": [
+      "MyLibrary/Assets/*.png"
+    ]
+  },
   "dependencies": {
     "SDWebImage": [
       ">= 4.0.0"
