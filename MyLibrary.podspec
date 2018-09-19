@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MyLibrary'
-  s.version          = '0.6.0'
+  s.version          = '0.7.0'
   s.summary          = 'A short description of MyLibrary.'
 
 # This description is used to generate tags and improve search results.
@@ -33,7 +33,7 @@ Pod::Spec.new do |s|
   s.source_files = 'MyLibrary/Classes/SDCycleScrollView/**/*.{h,m}'
   
   s.resource_bundles = {
-     'MyLibrary' => ['MyLibrary/Assets/*.png']
+     'MyLibrary' => ['MyLibrary/Assets/*']
    }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
